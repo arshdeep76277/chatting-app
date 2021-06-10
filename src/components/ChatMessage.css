@@ -1,0 +1,36 @@
+.chatmessage{
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 20px;
+    width: fit-content;
+    height: 50px;
+}
+.chatmessage_info{
+   
+    position: relative;
+    
+}
+.chatmessage_name{
+   font-size: x-small;
+   color:rgb(100, 163, 100);
+   position: absolute;
+   font-weight: bold;
+   top:-15px;
+}
+.chatmessage_timestamp{
+    font-size: x-small;
+    position: relative;
+    left: 5px;
+}
+p{
+
+    
+}
+.chatmessage_receiver{
+    background-color:rgb(204, 255, 204);
+}
+.chatmessage_receiver .chatmessage_name{
+    color:rgb(245, 174, 41);
+    margin-left: auto;
+}

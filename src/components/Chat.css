@@ -1,0 +1,55 @@
+.chat{
+   flex: 0.65;
+   display: flex;
+   flex-direction: column;
+}
+.chat_header{
+    display: flex;
+    align-items: center;
+    padding:12px;
+    border-bottom: solid 1px #ebebeb;
+    border-left: solid 1px #ebebeb;
+}
+.chat_header >h1{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.chat_message{
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    flex: 1;
+    border-image-repeat: repeat;
+    padding:5px 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat_footer{
+    height:40px;
+    display: flex;
+    padding:5px 10px;
+    background-color: #ebebeb;
+    align-items: center;
+}
+.chat_footer > form{
+    margin-left: 10px;
+    flex: 1;
+    display: flex;
+    margin-right: 10px;
+}
+form >input{
+   background-color: white;
+   border: none;
+   height: 27px;
+   border-radius: 10px;
+   outline: none;
+   flex: 1;
+}
+.chat_footer >form > button{
+    display: none;
+}
+.chat_footer > .MuisSvgIcon-root{
+     color: gray;
+     padding: 10px;
+}
+
