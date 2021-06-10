@@ -2,7 +2,6 @@ export const initialState={
     user: null,
 };
 
-
 export const actionType={
     SET_USER:"SET_USER",
 };
